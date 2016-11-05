@@ -1,0 +1,63 @@
+body {
+    background-color: black;
+}
+
+p {
+    color: aliceblue;
+    font-size: 24px;
+    text-align: center;
+}
+
+.container-fluid {
+    position: relative;
+    top: 30%;
+}
+
+.clock {
+    cursor: pointer
+}
+
+span {
+    font-size: 24px;
+    color: aliceblue;
+    position: relative;
+    top: 10px;
+}
+
+.adjust {
+    display: table;
+    margin: auto;
+}
+
+svg {
+    cursor: pointer;
+}
+
+th,
+td {
+    text-align: center;
+    color: aliceblue;
+    font-size: 24px;
+    color: aliceblue;
+    padding: 10px;
+}
+
+.display {
+    font-size: 50px;
+    position: relative;
+    z-index: 1;
+}
+
+#canvas {
+    position: relative;
+    z-index: -1;
+    bottom: 240px;
+}
+
+table {
+    margin-bottom: 80px;
+}
+
+#pause {
+    visibility: hidden
+}
